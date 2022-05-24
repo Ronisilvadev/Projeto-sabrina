@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Pacifico&display=swap');
+
+
+
+
+
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Open Sans', sans-serif;
+    --font3: 'Pacifico', cursive;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    
+}
+
+html, body {
+    
+    min-height: 100vh;
+    background-color: rgb(194, 77, 230);
+    font-family: var(--font1);
+    
+}
+nav {
+    display: block;
+    background-color: black;
+    text-align: center;
+}
+
+img {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    width: 50px;
+    margin: 0px 0px -10px 0px;
+    
+
+   
+    
+}
+
+nav a {
+    display: inline-block;
+    font: bolder;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: justify;
+    margin: 10px 20px 23px 0px;
+    
+    
+    
+}
+
+
+
+a:hover {
+    background-color: rgb(194, 77, 230);
+    text-decoration: underline;
+    transition-duration: 1s;
+}
+
+main {
+    background-color: white;
+    display: block;
+    margin: 0px 25px 25px 25px;
+    padding: 0px 5px 5px 5px;
+    box-shadow: 4px 4px 20px 2px black;
+    border-radius: 0px 0px 10px 10px;
+    
+    
+
+}
+
+
+header h1 , header p {
+    
+
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    font-family: var(--font2);
+    
+}
+
+header > h1 {
+    padding-top: 0px;
+    font-variant:small-caps ;
+    
+    font-size: 10vw;
+}
+header > p {
+   
+}
+
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;
+        padding-left: 30px;
+        font-family: var(--font3);
+        font-size: 3.5vw;
+        
+
+
+}
+
+section > p {
+    padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+section.imagem {
+    background-color: rgba(0, 0, 0, 0.274);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.37);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.315);
+    text-shadow: 1px 1px 0px black;
+}
+
+
+section#img01 {
+    background-image: url('imagens-sabrina/1.jpg');
+    background-position: right top;
+    
+
+}
+
+section#img02 {
+    background-image: url('imagens-sabrina/268863934_3421122414782535_6774223342448556728_n.jpg');
+    background-position: right center;
+    
+
+}
+
+section#img03 {
+    background-image: url('imagens-sabrina/3.jpg');
+    background-position: center center;
+    
+
+}
+
+section#img04 {
+    background-image: url('imagens-sabrina/4.jpg');
+    background-position: top 10% center;
+    
+
+}
+
+section#img05 {
+    background-image: url('imagens-sabrina/5.jpg');
+    background-position: top 10% center;
+    
+
+}
+
+section > p > img {
+    width: 200px;
+}
+
+
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
